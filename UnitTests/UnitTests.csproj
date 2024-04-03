@@ -27,8 +27,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="TestBuilders\" />
-	  <Folder Include="ValidatorsTests\" />
+	  <ProjectReference Include="..\TestBuildersPattern.ClassLibrary\TestBuildersPattern.ClassLibrary.csproj" />
 	</ItemGroup>
 
 </Project>
