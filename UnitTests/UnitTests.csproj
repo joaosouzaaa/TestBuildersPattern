@@ -27,8 +27,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ValidatorsTests\" />
 	  <Folder Include="TestBuilders\" />
+	  <Folder Include="ValidatorsTests\" />
 	</ItemGroup>
 
 </Project>
