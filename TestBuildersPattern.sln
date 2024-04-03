@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBuildersPattern.ClassLibrary", "TestBuildersPattern.ClassLibrary\TestBuildersPattern.ClassLibrary.csproj", "{EE5B18A6-8D52-43BB-ABB2-9F257B3A6522}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2B6F6C28-F483-468E-9003-E5D165D2EA7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{17126031-2827-445E-9529-8C104DBDB5F0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE5B18A6-8D52-43BB-ABB2-9F257B3A6522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5B18A6-8D52-43BB-ABB2-9F257B3A6522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5B18A6-8D52-43BB-ABB2-9F257B3A6522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5B18A6-8D52-43BB-ABB2-9F257B3A6522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17126031-2827-445E-9529-8C104DBDB5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17126031-2827-445E-9529-8C104DBDB5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17126031-2827-445E-9529-8C104DBDB5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17126031-2827-445E-9529-8C104DBDB5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17126031-2827-445E-9529-8C104DBDB5F0} = {2B6F6C28-F483-468E-9003-E5D165D2EA7F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35444A0F-E2E8-40B9-8340-C4E80398E87A}
